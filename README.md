@@ -1,10 +1,10 @@
 # Convolutional-Neural-Nets-for-MNIST-using-Keras
 
-Aim:
+**Aim:**
 
 To implement a convolutional neural network on the MNIST dataset and classify the digits from 0 to 9.
 
-Model Explanation:
+**Model Explanation:**
 
 Here, we use the ’keras’ library to implement the forward and backward passes of the given convolutional neural network. First, we load, reshape and normalize the image data. Next, we build a model using 3 Conv2D layers, each of size (3 × 3) with 32, 64, and 64 kernels respectively. After the 3 Con2D layers, we use the MaxPooling2D layer of size (2 × 2) followed by a flatten layer to input into the fully connected layers. Once the input has been flattened after the 3 Conv2D and 1 MaxPooling2D layer, we pass it through 3 ’Dense’ layers in keras, which correspond to the 2 fully connected layers of size 7744 and 128 neurons respectively and one softmax layer having 10 neurons, with each neuron corresponding to one class label (here digit) in MNIST. Thus, we get our model summary as given below:
 
