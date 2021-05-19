@@ -18,17 +18,17 @@ Next, we train our model with training images, training labels and evaluate agai
 
 We can also fit the model for higher epochs and measure the accuracy of the training and testing set after each epoch in a similar manner, but we take 5 epochs here for faster training. Now that the model has been trained, we can evaluate the model against the test set and plot the training loss and accuracy for both the test and train data.
 
-<img src="Results/Training_loss.png" width="25%" height="25%">
+<img src="Results/Training_loss.png" width="35%" height="35%">
 
-<img src="Results/Validation_loss.png" width="25%" height="25%">
+<img src="Results/Validation_loss.png" width="35%" height="35%">
 
 Here, we see both the training and testing (validation) error generally decreases after each epoch. For the training loss, the error curve decreases smoothly, while for the validation loss, the error curve might go up due to overfitting on the training data for a given epoch, but generally decreases over the entire training period of 5 epochs.
 
 Similarly, the accuracy plots for both the train and test data are:
 
-<img src="Results/Training_accuracy.png" width="25%" height="25%">
+<img src="Results/Training_accuracy.png" width="35%" height="35%">
 
-<img src="Results/Validation_accuracy.png" width="25%" height="25%">
+<img src="Results/Validation_accuracy.png" width="35%" height="35%">
 
 Here, we see that the accuracy for both the training and testing (validation) data generally increases after each epoch. For the training accuracy, the curve increases smoothly, while for the validation accuracy, the curve might go down due to overfitting on the training data for a given epoch, but generally increases over the entire training period of 5 epochs.
 
